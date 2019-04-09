@@ -10,14 +10,6 @@ namespace drevoroda.Test
         [Fact]
         public void TrueInitRepo()
         {
-            FakePersonRepository fakePerson = new FakePersonRepository();
-
-
-            List<Person> people = (List<Person>)fakePerson.Persons;
-
-            int Count = 4;
-
-            Assert.Equal(people.Count, Count);
 
 
         }
